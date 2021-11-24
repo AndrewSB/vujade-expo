@@ -1,6 +1,11 @@
-module.exports = function(api) {
-  api.cache(true);
+module.exports = function (api) {
+  api.cache(true)
+
   return {
-    presets: [['babel-preset-expo', {jsxRutime: 'automatic'}]]
-  };
-};
+    "presets": [
+      ["babel-preset-expo", {
+      "jsxRuntime": "automatic"
+    }]
+    ]
+      }
+}
